@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Template 1 bootstrap 3 home</title>
+    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cairo:wght@400;700;800&display=swap">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <!-- <link rel="stylesheet" href="css/bootstrap_rtl.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/default_theme.css">
+    <link rel="stylesheet" href="css/hover.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+</head>
+<body>
+
+  <!-- Start Tool Box -->
+
+  <div class="option-box">
+    <div class="color-box">
+      <h4>Color Option</h4>
+      <ul class="list-unstyled">
+        <li data-value="css/default_theme.css"></li>
+        <li data-value="css/blue_theme.css"></li>
+        <li data-value="css/yellow_theme.css"></li>
+        <li data-value="css/purple_theme.css"></li>
+      </ul>
+    </div>
+    <i class="fa-solid fa-gear fa-3x gear-check"></i>
+  </div>
+
+  <!-- End Tool Box -->
+
+    <!-- Start Navbar -->
+
+    <nav class="navbar navbar-inverse navbar-fixed-top">
+
+        <div class="container">
+
+          <div class="navbar-header">
+
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#ournavbar" aria-expanded="false">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                </button>
+                
+                <a class="navbar-brand hvr-pop" href="index.html">Sakly <span>Inc.</span></a>
+            
+          </div>
+      
+          <div class="collapse navbar-collapse" id="ournavbar">
+
+                <ul class="nav navbar-nav navbar-right">
+                    <li class="active"><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                    <li class="dropdown">
+                        <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Services <span class="caret"></span></a>
+                        <ul class="dropdown-menu">
+                            <li><a href="#">Programming</a></li>
+                            <li><a href="#">Web Design</a></li>
+                            <li><a href="#">Desktop</a></li>
+                            <li role="separator" class="divider"></li>
+                            <li><a href="#">Web Hosting</a></li>
+                        </ul>
+                    </li>
+                    <li><a href="#">Map</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+
+          </div>
+
+        </div>
+
+    </nav>
+
+      <!-- End Navbar -->
+
+      <!-- Start Carousel -->
+
+      <div id="myslide" class="carousel slide hidden-xs" data-ride="carousel">
+        
+        <ol class="carousel-indicators">
+          <li data-target="#myslide" data-slide-to="0" class="active"></li>
+          <li data-target="#myslide" data-slide-to="1"></li>
+          <li data-target="#myslide" data-slide-to="2"></li>
+        </ol>
+      
+        <div class="carousel-inner">
+          <div class="item active">
+            <div class="overlay"></div>
+            <img src="images/20509901.jpg" alt="img1"> 
+            <div class="carousel-caption">
+              <h2>Programming</h2>
+              <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                decided not to include jQuery-based fallbacks for the transitions</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="overlay"></div>
+            <img src="images/703.jpg" alt="img2">
+            <div class="carousel-caption">
+                <h2>Web Design</h2>
+              <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                decided not to include jQuery-based fallbacks for the transitions</p>
+            </div>
+          </div>
+          <div class="item">
+            <div class="overlay"></div>
+            <img src="images/paysagenypalcheminsurpontenboisenforytnaturesoleil.jpg" alt="img3">
+            <div class="carousel-caption">
+                <h2>Developpment</h2>
+              <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                decided not to include jQuery-based fallbacks for the transitions</p>
+            </div>
+          </div>
+        </div>
+      
+        <a class="left carousel-control" href="#myslide" role="button" data-slide="prev">
+          <span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span>
+          <span class="sr-only">Previous</span>
+        </a>
+
+        <a class="right carousel-control" href="#myslide" role="button" data-slide="next">
+          <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+          <span class="sr-only">Next</span>
+        </a>
+
+      </div>
+
+      <!-- End Carousel -->
+
+      <!-- Start about -->
+
+      <div class="about text-center wow animate__bounceIn" data-wow-duration="2s" data-wow-offset="500" id="about"> <!-- data-wow-duration="2s" data-wow-delay=".5s" data-wow-offset="500" data-wow-iteration="5" -->
+        <div class="container">
+            <h1>Meet Our New Template <span>Sakly Inc.</span></h1>
+            <p class="lead">Hello Let Me Introduce Our New Template Sakly Inc. reated With All The love With <strong>Bootstrap</strong> 3.4.1</p>
+        </div>
+      </div>
+
+      <!-- End about -->
+
+      <!-- Start Features -->
+
+      <div class="features text-center">
+        <div class="container">
+            <h2 class="h1">Our Features</h2>
+            <div class="row">
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat wow animate__bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
+                        <span class="glyphicon glyphicon glyphicon-ok" aria-hidden="true"></span>
+                        <h3>Hatem Sakly</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1200s,</p>
+                    </div>
+                </div> 
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat wow animate__bounceInDown" data-wow-duration="2s" data-wow-offset="200">
+                        <span class="glyphicon glyphicon glyphicon-cloud" aria-hidden="true"></span>
+                        <h3>Najib Sakly</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1200s,</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat wow animate__bounceInUp" data-wow-duration="2s" data-wow-offset="200">
+                        <span class="glyphicon glyphicon glyphicon-user" aria-hidden="true"></span>
+                        <h3>Zied Sakly</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1200s,</p>
+                    </div>
+                </div>
+                <div class="col-lg-3 col-md-6">
+                    <div class="feat wow animate__bounceInRight" data-wow-duration="2s" data-wow-offset="200">
+                        <span class="glyphicon glyphicon glyphicon-play-circle" aria-hidden="true"></span>
+                        <h3>Khelifa Sakly</h3>
+                        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s,</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- End Features -->
+
+      <!-- Start testimonials -->
+
+      <div class="testimonials text-center wow animate__flipInY" data-wow-duration="1s" data-wow-offset="400">
+        <div class="container">
+
+            <h2 class="h1">What Our Clients Say ?</h2>
+        
+            <div id="carousel_testimonials" class="carousel slide" data-ride="carousel">
+        
+                <div class="carousel-inner">
+                  <div class="item active">
+                    <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                        Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                        CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                        decided not to include jQuery-based fallbacks for the transitions</p>
+                        <span>Hatem Sakly</span>
+                  </div>
+                  <div class="item">
+                    <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                        Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                        CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                        decided not to include jQuery-based fallbacks for the transitions</p>
+                        <span>Zied Sakly</span>
+                  </div>
+                  <div class="item">
+                    <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                        Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                        CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                        decided not to include jQuery-based fallbacks for the transitions</p>
+                        <span>Najib Sakly</span>
+                  </div>
+                  <div class="item">
+                    <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                        Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary
+                        CSS properties. Thus, there are no slide transition animations when using these browsers. We have intentionally
+                        decided not to include jQuery-based fallbacks for the transitions</p>
+                        <span>Khelifa Sakly</span>
+                  </div>
+                </div>
+        
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel_testimonials" data-slide-to="0" class="active">
+                      <img src="images/download.jpg" alt="">
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="1">
+                      <img src="images/asian-woman-face-vector-12605133.jpg" alt="">
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="2">
+                      <img src="images/attractive-black-woman-face-vector-12599613.jpg" alt="">
+                    </li>
+                    <li data-target="#carousel_testimonials" data-slide-to="3">
+                      <img src="images/pretty-asian-woman-face-vector-21650219.jpg" alt="">
+                    </li>
+                  </ol>
+
+              </div>
+        </div>
+        
+      </div>
+
+      <!-- End testimonials -->
+
+      <!-- Start Price Table -->
+
+      <div class="price-table text-center">
+        <div class="container">
+            <h2 class="h1">Our Amazing Prices</h2>
+            <div class="row">
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price_box wow animate__fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+                        <h2 class="text-primary">Plan 1</h2>
+                        <p class="center-block">$40</p>
+                        <ul class="list-unstyled">
+                            <li>Hatem Sakly</li>
+                            <li>Zied Sakly</li>
+                            <li>Najib Sakly</li>
+                            <li>Khelifa Sakly</li>
+                            <li>Wafa Boussaid</li>
+                        </ul>
+                        <a href="#" class="btn btn-primary">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price_box wow animate__fadeInDown" data-wow-duration="2s" data-wow-offset="400">
+                        <h2 class="text-success">Plan 2</h2>
+                        <p class="center-block">$50</p>
+                        <ul class="list-unstyled">
+                            <li>Hatem Sakly</li>
+                            <li>Zied Sakly</li>
+                            <li>Najib Sakly</li>
+                            <li>Khelifa Sakly</li>
+                            <li>Wafa Boussaid</li>
+                        </ul>
+                        <a href="#" class="btn btn-success">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price_box wow animate__fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+                        <h2 class="text-info">Plan 3</h2>
+                        <p class="center-block">$60</p>
+                        <ul class="list-unstyled">
+                            <li>Hatem Sakly</li>
+                            <li>Zied Sakly</li>
+                            <li>Najib Sakly</li>
+                            <li>Khelifa Sakly</li>
+                            <li>Wafa Boussaid</li>
+                        </ul>
+                        <a href="#" class="btn btn-info">Order Now</a>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-sm-6 col-xs-12">
+                    <div class="price_box wow animate__fadeInDown" data-wow-duration="2s" data-wow-offset="400">
+                        <h2 class="text-danger">Plan 4</h2>
+                        <p class="center-block">$70</p>
+                        <ul class="list-unstyled">
+                            <li>Hatem Sakly</li>
+                            <li>Zied Sakly</li>
+                            <li>Najib Sakly</li>
+                            <li>Khelifa Sakly</li>
+                            <li>Wafa Boussaid</li>
+                        </ul>
+                        <a href="#" class="btn btn-danger">Order Now</a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+      </div>
+
+      <!-- End Price Table -->
+
+      <!-- Start Our Team -->
+
+      <div class="our_team text-center">
+        <div class="team">
+            <div class="container">
+                <h2 class="h1">Meet Our Awesome Team</h2>
+                <div class="row">
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="person wow animate__pulse" data-wow-duration="1s" data-wow-offset="400">
+                            <img src="images/images (1).jpg" alt="" class="img-circle">
+                            <h3>Hatem Sakly</h3>
+                            <p>Transition animations not supported in Internet Explorer 8 & 9</p>
+                            <i class="fa-brands fa-google-plus-square fa-lg text-danger"></i>
+                            <i class="fa-brands fa-facebook-square fa-lg text-primary"></i>
+                            <i class="fa-brands fa-twitter-square fa-lg text-info"></i>
+                            <i class="fa-brands fa-linkedin fa-lg text-success"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="person wow animate__pulse" data-wow-duration="1s" data-wow-offset="400">
+                            <img src="images/images (2).jpg" alt="" class="img-circle">
+                            <h3>Zied Sakly</h3>
+                            <p>Transition animations not supported in Internet Explorer 8 & 9</p>
+                            <i class="fa-brands fa-google-plus-square fa-lg text-danger"></i>
+                            <i class="fa-brands fa-facebook-square fa-lg text-primary"></i>
+                            <i class="fa-brands fa-twitter-square fa-lg text-info"></i>
+                            <i class="fa-brands fa-linkedin fa-lg text-success"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="person wow animate__pulse" data-wow-duration="1s" data-wow-offset="400">
+                            <img src="images/images (3).jpg" alt="" class="img-circle">
+                            <h3>Najib Sakly</h3>
+                            <p>Transition animations not supported in Internet Explorer 8 & 9</p>
+                            <i class="fa-brands fa-google-plus-square fa-lg text-danger"></i>
+                            <i class="fa-brands fa-facebook-square fa-lg text-primary"></i>
+                            <i class="fa-brands fa-twitter-square fa-lg text-info"></i>
+                            <i class="fa-brands fa-linkedin fa-lg text-success"></i>
+                        </div>
+                    </div>
+                    <div class="col-lg-3 col-sm-6 col-xs-12">
+                        <div class="person wow animate__pulse" data-wow-duration="1s" data-wow-offset="400">
+                            <img src="images/images (4).jpg" alt="" class="img-circle">
+                            <h3>Khelifa Sakly</h3>
+                            <p>Transition animations not supported in Internet Explorer 8 & 9</p>
+                            <i class="fa-brands fa-google-plus-square fa-lg text-danger"></i>
+                            <i class="fa-brands fa-facebook-square fa-lg text-primary"></i>
+                            <i class="fa-brands fa-twitter-square fa-lg text-info"></i>
+                            <i class="fa-brands fa-linkedin fa-lg text-success"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+
+      <!-- End Our Team -->
+
+      <!-- Start subscribe -->
+      
+      <div class="subscribe text-center">
+        <div class="container wow animate__fadeInUp" data-wow-duration="2s" data-wow-offset="400">
+          <h2 class="h1">Keep In Touch</h2>
+          <p class="lead">Transition animations not supported in Internet Explorer 8 & 9</p>
+          <form action="#" class="form-inline">
+            <input type="text" class="form-control input-lg" placeholder="Write Your Email">
+            <button class="btn btn-danger input-lg"><i class="fa-solid fa-pen-to-square"></i>Subscribe</button>
+          </form>
+        </div>
+      </div>
+
+      <!-- End subscribe -->
+
+      <!-- Start Statics -->
+
+      <div class="statics text-center">
+        <div class="stat">
+          <div class="container">
+            <h2 class="h1">Our Main Statics</h2>
+            <div class="row">
+              <div class="col-md-3 col-sm-6">
+                <div class="stats">
+                  <i class="fa-solid fa-users fa-5x"></i>
+                  <p>9,550</p>
+                  <span>Satisfied Users</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="stats">
+                  <i class="fa-solid fa-comments fa-5x"></i>
+                  <p>29,550</p>
+                  <span>Satisfied Comments</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="stats">
+                  <i class="fa-solid fa-suitcase fa-5x"></i>
+                  <p>30,550</p>
+                  <span>Satisfied Suitcase</span>
+                </div>
+              </div>
+              <div class="col-md-3 col-sm-6">
+                <div class="stats">
+                  <i class="fa-solid fa-phone fa-5x"></i>
+                  <p>10,550</p>
+                  <span>Satisfied Phone</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Statics -->
+
+      <!-- Start Our Skills -->
+
+      <div class="our_skills">
+        <div class="container">
+          <h2 class="h1 text-center">Our Skills</h2>
+          <div class="row">
+            <div class="col-md-5">
+              <div class="progress">
+                <div class="progress-bar progress-bar-success progress-bar-striped active" role="progressbar"
+                aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width:90%">
+                  90% 
+                </div>
+              </div>
+              
+              <div class="progress">
+                <div class="progress-bar progress-bar-info progress-bar-striped active" role="progressbar"
+                aria-valuenow="50" aria-valuemin="0" aria-valuemax="100" style="width:75%">
+                  75% 
+                </div>
+              </div>
+              
+              <div class="progress">
+                <div class="progress-bar progress-bar-warning progress-bar-striped active" role="progressbar"
+                aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width:30%">
+                  30% 
+                </div>
+              </div>
+              
+              <div class="progress">
+                <div class="progress-bar progress-bar-danger progress-bar-striped active" role="progressbar"
+                aria-valuenow="70" aria-valuemin="0" aria-valuemax="100" style="width:67%">
+                  67%
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6 col-md-offset-1">
+              <div class="skills_info">
+                <h3>About The Team</h3>
+                <p class="lead">Transition animations not supported in Internet Explorer 8 & 9
+                  Bootstrap exclusively uses CSS3 for its animations, but Internet Explorer 8 & 9 don't support the necessary</p>
+                  <button class="btn btn-primary" type="button">Talk With Porfessional</button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Our Skills -->
+
+      <!-- Start Contact -->
+
+      <div class="contact text-center">
+        <div class="fields">
+          <div class="container">
+              <div class="row">
+                <i class="fa-solid fa-headphones fa-5x"></i>
+                <h2 class="h1">Tell Us What You Fell</h2>
+                <p class="lead">Transition animations not supported in Internet Explorer 8 & 9</p>
+
+                <form action="#">
+                  <div class="col-md-6 wow animate__bounceInLeft" data-wow-duration="2s" data-wow-offset="200">
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="Your Name">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder="Your email">
+                    </div>
+                    <div class="form-group">
+                      <input type="text" class="form-control input-lg" placeholder=" Your tel">
+                    </div>
+                  </div>
+                  <div class="col-md-6 wow animate__bounceInRight" data-wow-duration="2s" data-wow-offset="200">
+                    <div class="form-group">
+                      <textarea class="form-control input-lg" placeholder="Message"></textarea>
+                    </div>
+                    <button type="button" class="btn btn-danger btn-lg btn-block">Contact Us</button>
+                  </div>
+                </form>
+              </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Contact -->
+
+      <!-- Start Our Clients -->
+
+      <div class="our_clients">
+        <div class="container">
+          <div class="row">
+            <ul class="list-unstyled">
+              <li class="col-md-2 col-xs-4">
+                <img src="images/BBC-logo.png" alt="" class="img-responsive center-block wow animate__bounceIn" data-wow-duration=".5s" data-wow-delay=".5s" data-wow-offset="200">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/CNN-Logo-1980-500x281.png" alt="" class="img-responsive center-block wow animate__bounceIn" data-wow-duration=".5s" data-wow-delay="1s" data-wow-offset="200">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/png-clipart-forbes-logo-marketing-business-company-magazine-company-text.png" alt="" class="img-responsive center-block wow animate__bounceIn" data-wow-duration=".5s" data-wow-delay="1.5s" data-wow-offset="200">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/CNN-Logo-1980-500x281.png" alt="" class="img-responsive center-block wow animate__bounceIn" data-wow-duration=".5s" data-wow-delay="2s" data-wow-offset="200">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/Wired_logo.svg.png" alt="" class="img-responsive center-block wow animate__bounceIn" data-wow-duration=".5s" data-wow-delay="2.5s" data-wow-offset="200">
+              </li>
+              <li class="col-md-2 col-xs-4">
+                <img src="images/wsj-logo.jpg" alt="" class="img-responsive center-block wow animate__bounceIn" data-wow-duration=".5s" data-wow-delay="3s" data-wow-offset="200">
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <!-- End Our Clients -->
+
+      <!-- Start Footer -->
+
+      <div class="footer">
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-4 col-md-6">
+              <h3>Sitemap</h3>
+              <ul class="list-unstyled three-columns">
+                <li>Home</li>
+                <li>Services</li>
+                <li>Company</li>
+                <li>Code</li>
+                <li>Design</li>
+                <li>Host</li>
+                <li>Solutions</li>
+                <li>Map</li>
+                <li>Code</li>
+              </ul>
+              <ul class="list-unstyled social-list">
+                <li><img src="images/icon/1543317_social media_network_twitter_icon.png" alt=""></li>
+                <li><img src="images/icon/2061706_google_googleplus_line_network_social_icon.png" alt=""></li>
+                <li><img src="images/icon/2945055_logo_pinterest_icon.png" alt=""></li>
+                <li><img src="images/icon/7857161_linkedin_linked in_social media_network_networking_icon.png" alt=""></li>
+                <li><img src="images/icon/8198113_facebook_icon.png" alt=""></li>
+                <li><img src="images/icon/9004849_envelope_mail_message_email_icon.png" alt=""></li>
+              </ul>
+            </div>
+            <div class="col-lg-4 col-md-6">
+              <h3>Latest Articles</h3>
+              <div class="media">
+                  <a href="#" class="pull-left">
+                    <img class="media-object img-circle" src="images/images (1).jpg" alt="...">
+                  </a>
+                  <div class="media-body">
+                    <h4 class="media-heading">Programming</h4>
+                    Transition animations not supported in Internet Explorer 8 & 9
+                  </div>
+              </div>
+              <div class="media">
+                <a href="#" class="pull-left">
+                  <img class="media-object img-circle" src="images/images (2).jpg" alt="...">
+                </a>
+                <div class="media-body">
+                  <h4 class="media-heading">Developpment</h4>
+                  Transition animations not supported in Internet Explorer 8 & 9
+                </div>
+            </div>
+            <div class="media">
+              <a href="#" class="pull-left">
+                <img class="media-object img-circle" src="images/images (3).jpg" alt="...">
+              </a>
+              <div class="media-body">
+                <h4 class="media-heading">Web Desin</h4>
+                Transition animations not supported in Internet Explorer 8 & 9
+              </div>
+          </div>
+            </div>
+            <div class="col-lg-4">
+              <h3>Our Awesome Work</h3>
+              <img src="images/703.jpg" alt="" class="work img-thumbnail">
+              <img src="images/20509901.jpg" alt="" class="work img-thumbnail">
+              <img src="images/paysagenypalcheminsurpontenboisenforytnaturesoleil.jpg" alt="" class="work img-thumbnail">
+              <img src="images/703.jpg" alt="" class="work img-thumbnail">
+            </div>
+          </div>
+        </div>
+        <div class="copyright text-center">
+          Copyright &copy; 2022 <span>Your Template Bootstrap 3</span> .Inc
+        </div>
+      </div>
+
+      <!-- End Footer -->
+
+      <!-- Start loading -->
+
+      <div class="laoding-overlay">
+        <div class="spinner"></div>
+      </div> 
+
+      <!-- End Loading -->
+
+      <!-- Start scrol to top -->
+
+      <div id="scroll-top">
+        <i class="fa-solid fa-chevron-up fa-3x"></i>
+      </div>
+
+      <!-- End scrol to top -->
+
+    <script src="js/jquery-3.6.1.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/script.js"></script>
+    <script src="js/jquery.nicescroll.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script>new WOW().init();</script>
+</body> 
+</html>
